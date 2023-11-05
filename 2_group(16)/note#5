@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int Integral(int start, int end);
+int Integral(int start, int end); 함수 선언
 
 int main(void)
 {
@@ -19,6 +19,7 @@ for(i = 7; i <= 17; i++)
 
 printf("7부터 17까지 합은 %d다.\n", result);
 
+for 문을 매번 사용해야 함
 
 printf("함수를 사용하여 합을 구함\n");
 printf("1부터 10 까지 합은 %d 다.\n", Integral(1, 10));
@@ -35,3 +36,5 @@ int Integral(int start, intend)
   return 0;
 }
 
+함수를 정의, 호출하여 사용
+함수 사용, 출력 시 용이 
