@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int 적분(int start, intend); ;
+
+메인(void)
+{
+int 결과 = 0, i;
+
+printf("함수를 사용하지 않고 합을 구함\n");
+(i = 1; i < 10; i++)의 경우
+결과 += i;
+
+printf("1부터 10까지 합은 %d다.\n", result);
+
+결과 = 0;
+
+(i = 7; i <= 17; i++)의 경우
+결과 += 1;
+
+printf("7부터 17까지 합은 %d다.\n", result);
+
+printf("함수를 사용하여 합을 구함\n");
+printf("부터 10 까지 합은 %d 다.\n", 적분(1, 10));
+printf("부터 17 까지 합은 %d 다.\n", 적분(7, 17));
+
+0을 반환합니다.
+}
+
+int 적분(int start, intend)
+{
+int sum = 0, i;
+(i = 시작; i <= 끝; i++)의 경우
+합 += i;
+반환 합계
+}
+
