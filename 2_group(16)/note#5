@@ -1,36 +1,37 @@
 #include <stdio.h>
 
-int 적분(int start, intend); ;
+int Integral(int start, int end);
 
-메인(void)
+int main(void)
 {
-int 결과 = 0, i;
+  int result = 0, i;
 
-printf("함수를 사용하지 않고 합을 구함\n");
-(i = 1; i < 10; i++)의 경우
-결과 += i;
+  printf("함수를 사용하지 않고 합을 구함\n");
+  for (i = 1; i < 10; i++)
+    result += i;
 
-printf("1부터 10까지 합은 %d다.\n", result);
+    printf("1부터 10까지 합은 %d다.\n", result);
 
-결과 = 0;
+  result = 0;
 
-(i = 7; i <= 17; i++)의 경우
-결과 += 1;
+for(i = 7; i <= 17; i++)
+  result += 1;
 
 printf("7부터 17까지 합은 %d다.\n", result);
 
-printf("함수를 사용하여 합을 구함\n");
-printf("부터 10 까지 합은 %d 다.\n", 적분(1, 10));
-printf("부터 17 까지 합은 %d 다.\n", 적분(7, 17));
 
-0을 반환합니다.
+printf("함수를 사용하여 합을 구함\n");
+printf("1부터 10 까지 합은 %d 다.\n", Integral(1, 10));
+printf("7부터 17 까지 합은 %d 다.\n", Integral(7, 17));
+
+return 0;
 }
 
-int 적분(int start, intend)
+int Integral(int start, intend)
 {
-int sum = 0, i;
-(i = 시작; i <= 끝; i++)의 경우
-합 += i;
-반환 합계
+  int sum = 0, i;
+  for(i = start; i <= end; i++)
+    sum += i;
+  return 0;
 }
 
